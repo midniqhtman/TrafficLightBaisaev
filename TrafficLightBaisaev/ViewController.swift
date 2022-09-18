@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         setupTrafficLights()
     }
     
-    
     @IBAction func nextButton() {
         buttonCount += 1
         
@@ -40,8 +39,7 @@ class ViewController: UIViewController {
             setupTrafficLights()
         }
     }
-        
-        
+    
         func setupTrafficLights() {
             
             for light in redYellowGreen {
